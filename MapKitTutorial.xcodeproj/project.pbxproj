@@ -64,8 +64,7 @@
 				B19280FF1E2AD9050067C8CE /* LaunchScreen.storyboard */,
 				B19281021E2AD9050067C8CE /* Info.plist */,
 			);
-			name = MapKitTutorial;
-			path = WhenToGo;
+			path = MapKitTutorial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +83,7 @@
 			dependencies = (
 			);
 			name = MapKitTutorial;
-			productName = WhenToGo;
+			productName = MapKitTutorial;
 			productReference = B19280F31E2AD9050067C8CE /* MapKitTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -265,9 +264,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WhenToGo/Info.plist;
+				INFOPLIST_FILE = MapKitTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wavrun.WhenToGo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wavrun.MapKitTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,9 +276,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WhenToGo/Info.plist;
+				INFOPLIST_FILE = MapKitTutorial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wavrun.WhenToGo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wavrun.MapKitTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
