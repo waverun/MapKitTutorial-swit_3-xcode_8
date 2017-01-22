@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  WhenToGo
+//  MapKitTutorial
 //
 //  Created by TV on 15/01/2017.
 //  Copyright © 2017 WAVRUN. All rights reserved.

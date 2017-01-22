@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B19280F31E2AD9050067C8CE /* WhenToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhenToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19280F31E2AD9050067C8CE /* MapKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19280F61E2AD9050067C8CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B19280F81E2AD9050067C8CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B19280FB1E2AD9050067C8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		B19280EA1E2AD9050067C8CE = {
 			isa = PBXGroup;
 			children = (
-				B19280F51E2AD9050067C8CE /* WhenToGo */,
+				B19280F51E2AD9050067C8CE /* MapKitTutorial */,
 				B19280F41E2AD9050067C8CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		B19280F41E2AD9050067C8CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B19280F31E2AD9050067C8CE /* WhenToGo.app */,
+				B19280F31E2AD9050067C8CE /* MapKitTutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B19280F51E2AD9050067C8CE /* WhenToGo */ = {
+		B19280F51E2AD9050067C8CE /* MapKitTutorial */ = {
 			isa = PBXGroup;
 			children = (
 				B19281081E2EB6610067C8CE /* LocationSearchTable.swift */,
@@ -64,15 +64,16 @@
 				B19280FF1E2AD9050067C8CE /* LaunchScreen.storyboard */,
 				B19281021E2AD9050067C8CE /* Info.plist */,
 			);
+			name = MapKitTutorial;
 			path = WhenToGo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B19280F21E2AD9050067C8CE /* WhenToGo */ = {
+		B19280F21E2AD9050067C8CE /* MapKitTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B19281051E2AD9050067C8CE /* Build configuration list for PBXNativeTarget "WhenToGo" */;
+			buildConfigurationList = B19281051E2AD9050067C8CE /* Build configuration list for PBXNativeTarget "MapKitTutorial" */;
 			buildPhases = (
 				B19280EF1E2AD9050067C8CE /* Sources */,
 				B19280F01E2AD9050067C8CE /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = WhenToGo;
+			name = MapKitTutorial;
 			productName = WhenToGo;
-			productReference = B19280F31E2AD9050067C8CE /* WhenToGo.app */;
+			productReference = B19280F31E2AD9050067C8CE /* MapKitTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B19280EE1E2AD9050067C8CE /* Build configuration list for PBXProject "WhenToGo" */;
+			buildConfigurationList = B19280EE1E2AD9050067C8CE /* Build configuration list for PBXProject "MapKitTutorial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B19280F21E2AD9050067C8CE /* WhenToGo */,
+				B19280F21E2AD9050067C8CE /* MapKitTutorial */,
 			);
 		};
 /* End PBXProject section */
@@ -287,7 +288,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B19280EE1E2AD9050067C8CE /* Build configuration list for PBXProject "WhenToGo" */ = {
+		B19280EE1E2AD9050067C8CE /* Build configuration list for PBXProject "MapKitTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B19281031E2AD9050067C8CE /* Debug */,
@@ -296,13 +297,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B19281051E2AD9050067C8CE /* Build configuration list for PBXNativeTarget "WhenToGo" */ = {
+		B19281051E2AD9050067C8CE /* Build configuration list for PBXNativeTarget "MapKitTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B19281061E2AD9050067C8CE /* Debug */,
 				B19281071E2AD9050067C8CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

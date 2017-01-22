@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WhenToGo.xcodeproj">
+      location = "self:/Users/tv/Desktop/WhenToGo/MapKitTutorial.xcodeproj">
    </FileRef>
 </Workspace>
