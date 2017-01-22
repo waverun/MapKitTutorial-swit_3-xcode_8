@@ -12,6 +12,7 @@
 		B19280FC1E2AD9050067C8CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19280FA1E2AD9050067C8CE /* Main.storyboard */; };
 		B19280FE1E2AD9050067C8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19280FD1E2AD9050067C8CE /* Assets.xcassets */; };
 		B19281011E2AD9050067C8CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19280FF1E2AD9050067C8CE /* LaunchScreen.storyboard */; };
+		B19281091E2EB6610067C8CE /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19281081E2EB6610067C8CE /* LocationSearchTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B19280FD1E2AD9050067C8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B19281001E2AD9050067C8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B19281021E2AD9050067C8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19281081E2EB6610067C8CE /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationSearchTable.swift; path = ../LocationSearchTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		B19280F51E2AD9050067C8CE /* WhenToGo */ = {
 			isa = PBXGroup;
 			children = (
+				B19281081E2EB6610067C8CE /* LocationSearchTable.swift */,
 				B19280F61E2AD9050067C8CE /* AppDelegate.swift */,
 				B19280F81E2AD9050067C8CE /* ViewController.swift */,
 				B19280FA1E2AD9050067C8CE /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19281091E2EB6610067C8CE /* LocationSearchTable.swift in Sources */,
 				B19280F91E2AD9050067C8CE /* ViewController.swift in Sources */,
 				B19280F71E2AD9050067C8CE /* AppDelegate.swift in Sources */,
 			);
@@ -262,7 +266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WhenToGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.WhenToGo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wavrun.WhenToGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,7 +278,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WhenToGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.WhenToGo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wavrun.WhenToGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
